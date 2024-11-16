@@ -1,8 +1,18 @@
+import AvatarMarkWebber from "/images/avatar-mark-webber.webp";
+import AvatarAngelaGray from "/images/avatar-angela-gray.webp";
+import AvatarJacobThompson from "/images/avatar-jacob-thompson.webp";
+import AvatarRizkyHasanuddin from "/images/avatar-rizky-hasanuddin.webp";
+import AvatarKimberlySmith from "/images/avatar-kimberly-smith.webp";
+import AvatarNathanPeterson from "/images/avatar-nathan-peterson.webp";
+import AvatarAnnaKim from "/images/avatar-anna-kim.webp";
+import ImageChess from "/images/image-chess.webp";
+
+// Updated init_data array
 export const init_data = [
     {
         id: "dbe0914b-62c4-4360-ba21-b8278abcf8e0",
         name: "Mark Webber",
-        avatar: "/images/avatar-mark-webber.webp",
+        avatar: AvatarMarkWebber,
         created_ago: "1m ago",
         isRead: false,
         react: {
@@ -12,7 +22,7 @@ export const init_data = [
     {
         id: "b0fa3ef1-5324-4239-b571-e3f0e1158e9e",
         name: "Angela Gray",
-        avatar: "/images/avatar-angela-gray.webp",
+        avatar: AvatarAngelaGray,
         created_ago: "5m ago",
         isRead: false,
         follow: true,
@@ -20,7 +30,7 @@ export const init_data = [
     {
         id: "5063c086-5703-497c-ae77-ce2f1088d31b",
         name: "Jacob Thompson",
-        avatar: "/images/avatar-jacob-thompson.webp",
+        avatar: AvatarJacobThompson,
         created_ago: "1 day ago",
         isRead: false,
         join_group: "Chess Club",
@@ -28,7 +38,7 @@ export const init_data = [
     {
         id: "7afac463-56e5-4d94-8686-6b419aa4e88a",
         name: "Rizky Hasanuddin",
-        avatar: "/images/avatar-rizky-hasanuddin.webp",
+        avatar: AvatarRizkyHasanuddin,
         created_ago: "5 days ago",
         isRead: true,
         private_message:
@@ -37,17 +47,17 @@ export const init_data = [
     {
         id: "e1a643c3-5cd5-4de7-8d56-7e534bf79dfe",
         name: "Kimberly Smith",
-        avatar: "/images/avatar-kimberly-smith.webp",
+        avatar: AvatarKimberlySmith,
         created_ago: "1 week ago",
         isRead: true,
         comment: {
-            photo_url: "/images/image-chess.webp",
+            photo_url: ImageChess,
         },
     },
     {
         id: "4d56817e-7130-4720-90ab-5cc62cda4137",
         name: "Nathan Peterson",
-        avatar: "/images/avatar-nathan-peterson.webp",
+        avatar: AvatarNathanPeterson,
         created_ago: "2 weeks ago",
         isRead: true,
         react: {
@@ -57,7 +67,7 @@ export const init_data = [
     {
         id: "662541b3-8eae-4dc6-8588-79a82abca9e0",
         name: "Anna Kim",
-        avatar: "/images/avatar-anna-kim.webp",
+        avatar: AvatarAnnaKim,
         created_ago: "2 weeks ago",
         isRead: true,
         left_group: "Chess Club",
